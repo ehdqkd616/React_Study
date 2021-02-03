@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App'; /* 사용자 정의 컴포넌트 */
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 
 ReactDOM.render(
   <React.StrictMode>
-    <App /> {/* 사용자 정의 컴포넌트 */}
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
